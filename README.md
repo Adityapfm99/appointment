@@ -86,14 +86,6 @@ curl --location --request DELETE 'http://localhost:3000/appointments/cancel/<:ap
 ```
 
 
-## API Documentation Swagger
-```bash
-$ http://localhost:3000/api
-```
-
-![Alt text](img/swagger.png)
-
-
 ## Screenshot feature
 
 ![Alt text](img/validationDouble.png)
