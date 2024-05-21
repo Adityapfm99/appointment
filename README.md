@@ -26,6 +26,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## How to Start
+1. Git Clone https://github.com/Adityapfm99/appointment.git
+2. Install Mongo DB in local / Register in cloud Mongo DB
+3. Rename file env_sample to .env
+4. Replace value MONGO_DB_URI to your connection string
+
 ## Installation
 
 ```bash
