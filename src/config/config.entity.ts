@@ -18,3 +18,5 @@ export class Config {
   @Column('simple-array')
   daysOff: string[];
 }
+
+

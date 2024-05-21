@@ -1,0 +1,6 @@
+{
+    "slotDuration": 30,
+    "maxSlotsPerAppointment": 1,
+    "operationalHours": { "start": 9, "end": 18 }
+  }
+  
