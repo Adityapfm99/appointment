@@ -50,25 +50,28 @@ $ npm run start:prod
 
 ```bash
 Get Available
-```
 curl --location 'http://localhost:3000/appointments/available-slots?date=2022-04-04'
+```
+
 
 ```bash
 Appointments Book
-```
-
 curl --location 'http://localhost:3000/appointments/book' \
 --header 'Content-Type: application/json' \
 --data '{
     "date": "2024-04-04",
     "time": "10:00"
 }'
+```
+
+
 
 
 ```bash
 Cancel Book
-```
 curl --location --request DELETE 'http://localhost:3000/appointments/cancel/<:appointmentId>'
+```
+
 
 
 
