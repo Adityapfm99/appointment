@@ -36,7 +36,7 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ npm run start (including seed data config)
 
 # watch mode
 $ npm run start:dev
@@ -44,6 +44,15 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+## API Documentation Swagger
+```bash
+$ http://localhost:3000/api
+```
+
+![Alt text](img/swagger.png)
+
+
 
 ## CURL
 
@@ -65,14 +74,10 @@ curl --location 'http://localhost:3000/appointments/book' \
 ```
 
 
-
-
 ```bash
 Cancel Book
 curl --location --request DELETE 'http://localhost:3000/appointments/cancel/<:appointmentId>'
 ```
-
-
 
 
 ## API Documentation Swagger
@@ -83,3 +88,12 @@ $ http://localhost:3000/api
 ![Alt text](img/swagger.png)
 
 
+## Screenshot feature
+
+![Alt text](img/validationDouble.png)
+
+![Alt text](img/created.png)
+
+![Alt text](img/cancelled.png)
+
+![Alt text](img/get.png)
